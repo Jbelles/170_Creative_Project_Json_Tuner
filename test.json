@@ -1,0 +1,109 @@
+{
+    "Tunings": [
+        "Standard",
+        "Drop D",
+        "C Standard (7 string)"
+    ],
+    "Standard": [
+        {
+            "String": "1",
+            "Tuning": "E2",
+            "Freq": "82.41"
+        },
+        {
+            "String": "2",
+            "Tuning": "A2",
+            "Freq": "110.00"
+        },
+        {
+            "String": "3",
+            "Tuning": "D3",
+            "Freq": "146.83"
+        },
+        {
+            "String": "4",
+            "Tuning": "G3",
+            "Freq": "196.00"
+        },
+        {
+            "String": "5",
+            "Tuning": "B3",
+            "Freq": "246.94"
+        },
+        {
+            "String": "6",
+            "Tuning": "E4",
+            "Freq": "329.63"
+        }
+    ],
+    "Drop D": [
+        {
+            "String": "1",
+            "Tuning": "D2",
+            "Freq": "73.42"
+        },
+        {
+            "String": "2",
+            "Tuning": "A2",
+            "Freq": "110.00"
+        },
+        {
+            "String": "3",
+            "Tuning": "D3",
+            "Freq": "146.83"
+        },
+        {
+            "String": "4",
+            "Tuning": "G3",
+            "Freq": "196.00"
+        },
+        {
+            "String": "5",
+            "Tuning": "B3",
+            "Freq": "246.94"
+        },
+        {
+            "String": "6",
+            "Tuning": "E4",
+            "Freq": "329.63"
+        }
+    ],
+    "C Standard (7 string)": [
+        {
+            "String": "1",
+            "Tuning": "F1",
+            "Freq": "43.65"
+        },
+        {
+            "String": "2",
+            "Tuning": "C2",
+            "Freq": "65.41"
+        },
+        {
+            "String": "3",
+            "Tuning": "F2",
+            "Freq": "87.31"
+        },
+        {
+            "String": "4",
+            "Tuning": "A#2",
+            "Freq": "116.54"
+        },
+        {
+            "String": "5",
+            "Tuning": "D#3",
+            "Freq": "155.46"
+        },
+        {
+            "String": "6",
+            "Tuning": "G3",
+            "Freq": "196"
+        },
+        {
+            "String": "7",
+            "Tuning": "C4",
+            "Freq": "261.63"
+        }
+    ]
+
+}

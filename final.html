@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<head>
+	    <title>P7</title>
+</head>
+<body>
+<form action="test.json">
+    <input type="submit" value="Json Base">
+</form>
+<form action="poem.py">
+    <input type="submit" value="Python Code">
+</form>
+<br>
+<h3>Documentation:</h3>
+For my final project I decided to continue on our previous assignment of interpretting Json files.<br>
+I started off by creating a python program and figuring out how to import a Json file into a parsable format.<br>
+After I had the Json imported, I had to figure out how to actually parse the data into something readable.<br>
+This was where a significant chunk of my time was spent, coming up with a way to sift through my json in an organized manner.<br>
+Once I got it working and a litle bit formatted I saw something like this:<br>
+<img src= "http://i.imgur.com/sZxJlWt.png"><br>
+That was one string, one tuning, one frequency, now i needed to get every string in a tuning.<br>
+<img src= "http://i.imgur.com/IyNIRwU.png"><br>
+This was better, at least I was getting the correct number of strings. Next I decided to try and grab every string from all tunings.<br>
+<img src= "http://i.imgur.com/vEtry2n.png"><br>
+Again, it's progressing, and at least the first string in each tuning is displaying, but its not iterating within each tuning, which was fairly easy to fix.<br>
+<img src= "http://i.imgur.com/mZeFE9i.png"><br>
+There we go! Now all relevent information from the Json has been accessed, I could now do with it what I will.<br>
+So I decided I was going to use the Tkinter library and try to build a somewhat acceptable graphical interface.<br>
+I wanted to be able to click on a specific tuning frequency and hear it, and this turned out to be the hardest part of my project, but I got it to display!<br>
+<img src= "http://i.imgur.com/YjBl7el.png"><br>
+The biggest issue I ran into was, since I sorted all of my data into a 2D array of nearly identical Tkinter.Button objects, and all Button objects require a callback function on instantiation, I had no way to distinguish each button from eachother, they all called the same function.<br>
+To fix this I created a dynamic callback function that accepted an int as a parameter and used lambda functions from within the button instantiation which allowed me to instantiate buttons with identical callback functions, but unique function parameters.<br>
+<img src ="http://i.imgur.com/oIMzti0.png"><br>
+This was my final result after cleaning up the GUI a bit,(evening out the buttons) and separating the tunings.
+</body>
